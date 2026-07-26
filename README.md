@@ -23,8 +23,8 @@ Columns include age, education, occupation, marital status, race, gender, hours 
 ```mermaid
 flowchart TD
     A[Raw CSV: workers_data.csv] --> B[PostgreSQL Database]
-    B --> C[SQL Analysis Queries]
-    C --> D[SQLAlchemy Connection]
+    B --> C[SQLAlchemy Connection]
+    C --> D[SQL Analysis Queries]
     D --> E[Pandas DataFrames]
     E --> F[Matplotlib Visualizations]
     E --> G[ydata-profiling Report]

@@ -92,4 +92,5 @@ DB_PORT=5432
 DB_NAME=your_database_name
 
 ## Author
-Isaac Adinoyi Joseph ("Adintech") — Pure Mathematics student, aspiring quantitative analyst.
+Isaac Adinoyi Joseph ("Adintech") 
+— Pure Mathematics student, aspiring quantitative analyst.

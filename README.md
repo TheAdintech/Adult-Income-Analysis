@@ -107,5 +107,5 @@ workers-data-postgres-analysis/
 - DB_NAME=your_database_name
 
 ## Author
-Isaac Adinoyi Joseph/<br>
+Isaac Adinoyi Joseph<br>
 Pure Mathematics Student, Data Analyst and Scientist

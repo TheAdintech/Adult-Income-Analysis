@@ -1,6 +1,6 @@
-# workers-data-postgres-analysis
+# Adult-Income-Analysis
 
-### Workers Dataset Analysis — PostgreSQL & Python
+### Adult-Income-Analysis — PostgreSQL & Python
 
 This is an exploratory analysis of income patterns using SQL and Python. I built this project as a testament to my learning journey with PostgreSQL — coming from a background in MSSQL — and to prove I could handle the full pipeline from raw data to analysis using pandas.
 

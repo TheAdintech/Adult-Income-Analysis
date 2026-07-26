@@ -99,12 +99,12 @@ workers-data-postgres-analysis/
 5. Install Python dependencies: `pip install -r requirements.txt`
 6. Open `notebooks/analysis.ipynb` and run all cells
 
-**.env format:**
-DB_USER=your_username
-DB_PASSWORD=your_password
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=your_database_name
+## **.env format:**
+- DB_USER=your_username
+- DB_PASSWORD=your_password
+- DB_HOST=localhost
+- DB_PORT=5432
+- DB_NAME=your_database_name
 
 ## Author
 Isaac Adinoyi Joseph ("Adintech") 

@@ -107,5 +107,5 @@ workers-data-postgres-analysis/
 - DB_NAME=your_database_name
 
 ## Author
-Isaac Adinoyi Joseph ("Adintech") 
-— Pure Mathematics student, aspiring quantitative analyst.
+Isaac Adinoyi Joseph  
+Pure Mathematics Student, Data Analyst and Scientist

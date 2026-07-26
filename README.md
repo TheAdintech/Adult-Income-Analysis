@@ -20,35 +20,15 @@ Columns include age, education, occupation, marital status, race, gender, hours 
 - `educational_num` is an ordinal rank (1–16), not literal years of schooling
 
 ## Pipeline
-Raw CSV (workers_data.csv)
-
-│
-
-▼
-
-PostgreSQL (create_table.sql → import_data.sql)
-
-│
-
-▼
-
-SQL Analysis (analysis_queries.sql)
-
-│
-
-▼
-
-SQLAlchemy Connection (.env → engine)
-
-│
-
-▼
-
-Pandas DataFrames (pd.read_sql)
-
-│
-
-▼
+```mermaid
+flowchart TD
+    A[Raw CSV: workers_data.csv] --> B[PostgreSQL Database]
+    B --> C[SQL Analysis Queries]
+    C --> D[SQLAlchemy Connection]
+    D --> E[Pandas DataFrames]
+    E --> F[Matplotlib Visualizations]
+    E --> G[ydata-profiling Report]
+```
 
 Visualization & Profiling (Matplotlib, ydata-profiling)
 
@@ -108,4 +88,4 @@ workers-data-postgres-analysis/
 
 ## Author
 **AdinTech**<br>
-Pure Mathematics Student, Data Analyst and Scientist
+*Pure Mathematics Student, Data Analyst and Scientist*

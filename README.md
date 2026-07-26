@@ -21,22 +21,27 @@ Columns include age, education, occupation, marital status, race, gender, hours 
 
 ## Pipeline
 Raw CSV (workers_data.csv)
+
 │
 ▼
 
 PostgreSQL (create_table.sql → import_data.sql)
+
 │
 ▼
 
 SQL Analysis (analysis_queries.sql)
+
 │
 ▼
 
 SQLAlchemy Connection (.env → engine)
+
 │
 ▼
 
 Pandas DataFrames (pd.read_sql)
+
 │
 ▼
 

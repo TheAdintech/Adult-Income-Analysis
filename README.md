@@ -30,7 +30,6 @@ flowchart TD
     E --> G[ydata-profiling Report]
 ```
 
-Visualization & Profiling (Matplotlib, ydata-profiling)
 
 ## Tools & Stack
 - PostgreSQL
@@ -40,22 +39,25 @@ Visualization & Profiling (Matplotlib, ydata-profiling)
 - Jupyter Notebook
 
 ## Repo Structure
-workers-data-postgres-analysis/
+
+```
+Adult-Income-Analysis/
 ├── README.md
 ├── .gitignore
 ├── postgreSQL/
-│ ├── create_table.sql
-│ ├── import_data.sql
-│ └── analysis_queries.sql
+│   ├── create_table.sql
+│   ├── import_data.sql
+│   └── analysis_queries.sql
 ├── notebooks/
-│ └── analysis.ipynb
+│   └── analysis.ipynb
 ├── scripts/
-│ └── visualize.py
+│   └── visualize.py
 ├── reports/
-│ └── profile_report.html
+│   └── profile_report.html
 ├── data/
-│ └── workers_data.csv
+│   └── workers_data.csv
 └── requirements.txt
+```
 
 ## Key Findings
 
